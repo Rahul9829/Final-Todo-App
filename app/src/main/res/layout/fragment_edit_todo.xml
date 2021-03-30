@@ -3,9 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#28c77f"
+    android:background="#ADD8E6"
     android:orientation="vertical"
     tools:context=".EditTodoFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:src="@drawable/im" />
 
     <EditText
         android:id="@+id/edit_txt_title"
@@ -18,7 +23,8 @@
         android:layout_marginBottom="10sp"
         android:ems="10"
         android:hint="@string/edit_Title"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/edit_txt_description"
@@ -39,12 +45,14 @@
         android:inputType="textPersonName"
         android:autofillHints=""
         tools:ignore="TextFields" />
+
     <CheckBox
         android:id="@+id/edit_chk_iscomplete"
-        android:layout_width="match_parent"
+        android:layout_width="124dp"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
         android:layout_weight="0"
+        android:layout_gravity="right"
         android:text="@string/edit_is_complete" />
 
     <TextView

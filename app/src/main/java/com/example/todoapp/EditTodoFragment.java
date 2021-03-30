@@ -98,6 +98,7 @@ public class EditTodoFragment extends Fragment {
                 return false;
             }
         });
+
         todoId=getActivity().getIntent().getIntExtra("TodoId",-1);
         if (todoId!=-1){
             btnSave.setText(getText(R.string.edit_update));
