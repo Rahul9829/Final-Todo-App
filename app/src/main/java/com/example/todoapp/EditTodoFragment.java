@@ -160,12 +160,14 @@ public class EditTodoFragment extends Fragment {
         mDatePicker.show();
     }
     @SuppressLint({"SimpleDateFormat", "NonConstantResourceId"})
+    //class created for adding todo with details
     void SaveTodo(){
         boolean validate = true;
         Task todo= new Task();
         Date todoDate;
         int priority=1;
         int checkedPriority=-1;
+
         if (txtTitle.getText().toString().trim().equals("")){
             txtTitle.setError("Title cannot be empty");
             txtTitle.requestFocus();
