@@ -63,6 +63,7 @@ public class TodoListFragment extends Fragment {
             LayoutInflater layoutInflater = LayoutInflater.from(getContext());
             return new TodoHolder(layoutInflater, parent);
         }
+        //for changing the color of todo list according to the priority
         @Override
         public void onBindViewHolder(@NonNull TodoHolder holder, int position) {
             Task todo = mTodoList.get(position);
