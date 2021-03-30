@@ -167,7 +167,7 @@ public class EditTodoFragment extends Fragment {
         Date todoDate;
         int priority=1;
         int checkedPriority=-1;
-
+        //For validating the text field so that nothing is empty
         if (txtTitle.getText().toString().trim().equals("")){
             txtTitle.setError("Title cannot be empty");
             txtTitle.requestFocus();
