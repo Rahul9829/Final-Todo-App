@@ -136,6 +136,7 @@ public class TodoListFragment extends Fragment {
                 }
             });
         }
+        //For displaying the list
         public void bind(Task todo){
             @SuppressLint("SimpleDateFormat")
             SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd");
