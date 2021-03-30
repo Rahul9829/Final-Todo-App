@@ -6,7 +6,7 @@ import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 
-public class    EditTodoActivity extends AppCompatActivity {
+public class EditTodoActivity extends AppCompatActivity {
 
     Fragment mFragment;
     FragmentManager mFragmentManager;

@@ -34,6 +34,7 @@ import java.util.Calendar;
 
 public class EditTodoFragment extends Fragment {
 
+    //view elements
     View rootView;
     EditText txtTitle, txtDescription, txtDate;
     RadioGroup rgPriority;

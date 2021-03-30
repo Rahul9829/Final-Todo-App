@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 .add(R.id.list_container,mfragment)
                 .commit();
         fabAddNew = findViewById(R.id.fab_add_new_todo);
+        //fab icon for referring to edit todo page while clicking
         fabAddNew.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         mTodoViewModel= ViewModelProviders.of(this).get(TodoViewModel.class
         );
     }
+    //for menu options
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.main_menu,menu);
