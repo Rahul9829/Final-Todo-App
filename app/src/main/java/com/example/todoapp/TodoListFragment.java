@@ -101,7 +101,7 @@ public class TodoListFragment extends Fragment {
             mDate = itemView.findViewById(R.id.list_date);
             mDesprition=itemView.findViewById(R.id.list_description);
 
-
+            //for updating the list while the user clicks the todo
             mTitle.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
