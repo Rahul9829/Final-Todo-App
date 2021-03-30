@@ -143,6 +143,7 @@ public class EditTodoFragment extends Fragment {
         });
         mAlterDialog.show();
     }
+    //For intent displaying calender
     void DispalyTodoDate(){
         Calendar calendar = Calendar.getInstance();
         int cDay=calendar.get(Calendar.DAY_OF_MONTH);
