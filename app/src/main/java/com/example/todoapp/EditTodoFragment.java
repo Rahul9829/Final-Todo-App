@@ -121,6 +121,7 @@ public class EditTodoFragment extends Fragment {
         return rootView;
 
     }
+    //Alert Dailog Box Cancellation
     void DisplayAlerDialog(){
         mAlterDialog = new AlertDialog.Builder(getContext());
         mAlterDialog.setMessage(getString(R.string.edit_cancel_promt))
