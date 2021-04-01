@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Todo</string>
+    <string name="app_name">Todo Application</string>
     <string name="Splash_welcome">Welcome</string>
     <string name="quit_application">Do you want to quit Application?</string>
     <string name="ok">Ok</string>
@@ -10,9 +10,9 @@
     <string name="edit_Description">Description</string>
     <string name="edit_date">Date</string>
     <string name="edit_priority">Priority</string>
-    <string name="edit_high">High</string>
-    <string name="edit_medium">Medium</string>
-    <string name="edit_low">Low</string>
+    <string name="edit_high">High (Very Important)</string>
+    <string name="edit_medium">Medium (Quite Important)</string>
+    <string name="edit_low">Low (Kind Of Important)</string>
     <string name="edit_is_complete">Is Complete</string>
     <string name="edit_save">Save</string>
     <string name="edit_cancel_promt">Are you sure want to cancel edit??</string>

@@ -43,6 +43,8 @@ public class TodoListFragment extends Fragment {
 
         return rootView;
     }
+
+    //for displaying todo list in main page
     void updateRV(){
         mTodoViewModel.getAllTodos().observe(this, new Observer<List<Task>>() {
             @Override

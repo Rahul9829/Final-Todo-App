@@ -9,6 +9,8 @@ import androidx.room.TypeConverters;
 
 import com.example.todoapp.util.DateConvertor;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Date;
 
 @Entity(tableName = "tasks")
@@ -43,7 +45,7 @@ public class Task {
     @Ignore
     public Task(){
     }
-    public Task(String title, String description, Date createdDate, int priority, boolean is_completed){
+    public Task(@NotNull String title, String description, Date createdDate, int priority, boolean is_completed){
         this.title = title;
         this.description = description;
         this.createdDate = createdDate;

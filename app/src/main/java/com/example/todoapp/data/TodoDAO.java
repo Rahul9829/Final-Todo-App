@@ -23,7 +23,7 @@ public interface TodoDAO {
     @Update(onConflict = OnConflictStrategy.REPLACE)
     void update(Task... todos);
 
-    @Query("SELECT * FROM tasks ORDER BY created_date, priority desc")
+    @Query("SELECT * FROM tasks ORDER BY created_date, priority")
     LiveData<List<Task>> getAllTodos();
 
     @Query("SELECT * FROM tasks WHERE id=:id")
