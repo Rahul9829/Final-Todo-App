@@ -16,8 +16,8 @@
     <string name="edit_is_complete">Is Complete</string>
     <string name="edit_save">Save</string>
     <string name="edit_cancel_promt">Are you sure want to cancel edit??</string>
-    <string name="crud_save">Todo Saved</string>
-    <string name="crud_update">Todo Update</string>
+    <string name="crud_save">Todo Added</string>
+    <string name="crud_update">Todo Updated</string>
     <string name="crud_deleteall">All items deleted</string>
     <string name="edit_update">Update</string>
     <string name="textview">TextView</string>

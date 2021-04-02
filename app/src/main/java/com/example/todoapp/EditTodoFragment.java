@@ -86,7 +86,7 @@ public class EditTodoFragment extends Fragment {
         btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DisplayAlerDialog();
+                DisplayAlertDialog();
             }
         });
         txtDate.setOnTouchListener(new View.OnTouchListener() {
@@ -126,7 +126,7 @@ public class EditTodoFragment extends Fragment {
 
     }
     //Alert Dailog Box Cancellation
-    void DisplayAlerDialog(){
+    void DisplayAlertDialog(){
         mAlterDialog = new AlertDialog.Builder(getContext());
         mAlterDialog.setMessage(getString(R.string.edit_cancel_promt))
                 .setCancelable(false)
