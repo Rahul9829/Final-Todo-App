@@ -6,3 +6,5 @@ ADDING TODO
 ![first image](add_data.png)
 FRONT PAGE
 ![first image](front.png)
+MENU
+![first image](del.png)
