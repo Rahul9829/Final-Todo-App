@@ -8,3 +8,5 @@ FRONT PAGE
 ![first image](front.png)
 MENU
 ![first image](del.png)
+GIF
+![video](ravideo.GIF)
