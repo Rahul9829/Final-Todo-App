@@ -9,4 +9,4 @@ FRONT PAGE
 MENU
 ![first image](del.png)
 GIF
-![video](ravideo.GIF)
+![video](ravideo.gif)
